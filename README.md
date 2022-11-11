@@ -1,4 +1,4 @@
-# NERD - An AI-guided tool for the automatic assessment of venom-induced necrosis in mice
+# NERD - A machine learning tool for snake venom dermonecrosis identification and quantification
 
 We will hopefully have a more permanent link to the tool in the near future. Currently, you can access and use the tool via Google Colabs (requires Google Account):
 
@@ -8,7 +8,7 @@ We have also included an example image for you to try the tool with [here](https
 
 <br/><br/>
 
-For the experimental code and raw data for this tool see the associated GitHub repository: [AHA-Experiments](https://github.com/laprade117/NERD-Experiments)
+For the experimental code and raw data for this tool see the associated GitHub repository: [NERD-Experiments](https://github.com/laprade117/NERD-Experiments)
 
 Additional information regarding the performance of the tool can also be found on Weights and Biases: 
 
