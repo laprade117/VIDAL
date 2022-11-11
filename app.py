@@ -10,7 +10,7 @@ from streamlit_drawable_canvas import st_canvas
 from venomai import unet, predictor, preprocess
 
 st.set_page_config(
-    page_title="AI-assisted Haemorrhage Analysis",
+    page_title='AI-assisted Necrosis Analysis',
     page_icon="",
     layout="wide",
     initial_sidebar_state="expanded"
