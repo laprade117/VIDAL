@@ -1,0 +1,7 @@
+pip
+scikit-image
+scikit-learn
+pytorch-lightning
+opencv-python-headless
+streamlit
+streamlit-drawable-canvas
