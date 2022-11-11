@@ -23,7 +23,7 @@ def download_models():
         if os.path.exists(filename):
             # print(f'Inference model {i} is already downloaded. Skipping...')
             continue
-        URL = f'https://github.com/laprade117/venom-ai-haemorrhage-analysis-tool/releases/latest/download/unet_inference_{i}.ckpt'
+        URL = f'https://github.com/laprade117/NERD/releases/download/inference-models/unet_inference_{i}.ckpt'
         response = requests.get(URL)
         os.makedirs(os.path.dirname(filename), exist_ok=True)
         open(f'models/unet_inference_{i}.ckpt', 'wb').write(response.content)
@@ -31,7 +31,7 @@ def download_models():
 
 if __name__ == '__main__':
     
-    # download_models()
+    download_models()
 
     st.title('AI-assisted Necrosis Analysis')
     st.text('Click on each lesion in the image to be analyzed. Then press the compute button below to calculate the necrosis score for each lesion.')
