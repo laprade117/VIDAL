@@ -110,7 +110,7 @@ def compute_necrotic_units(predictions, windows, target_res=5, return_stats=Fals
     dark_real_areas = dark_pixel_areas / (target_res**2)
     
     # Compute nu
-    nu = dark_real_areas * 2.017 + light_real_areas
+    nu = dark_real_areas * 2.019 + light_real_areas
     nu = np.nan_to_num(nu)
     
     if return_stats:
