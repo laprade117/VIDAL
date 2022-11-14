@@ -34,9 +34,9 @@ if __name__ == '__main__':
     download_models()
 
     st.title('AI-assisted Necrosis Analysis')
-    st.text('1. Upload a photo to analyize using the browse files button the left.')
+    st.text('1. Upload a photo to analyize using the \'Browse files\' button the left.')
     st.text('2. Click on each lesion in the image. There should be a single white dot on each lesion you want a necrosis score computed.')
-    st.text('3. Press the compute button below to calculate the average necrosis score for the selected lesions. Individiual lesion scores are also displayed.')
+    st.text('3. Press the \'Compute\' button below to calculate the average necrosis score for the selected lesions. Individiual lesion scores are also displayed.')
 
     uploaded_file = st.sidebar.file_uploader("Upload an image with the template and black sheet of paper separating the mice. After uploading, wait a few seconds while the tool computes the severity scores.", type=['.jpg','.png','.tif'], accept_multiple_files=False)
     
