@@ -65,8 +65,8 @@ def detect_windows(image, input_size=256):
 def predict_windows(model, windows, augment=False):
     
     # Get CUDA device if available
-    # device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    device = torch.device('cpu')
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
+    # device = torch.device('cpu')
     
     model.to(device)
     model.eval()
