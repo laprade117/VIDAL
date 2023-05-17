@@ -2,7 +2,7 @@
 
 We will hopefully have a more permanent link to the tool in the near future. Currently, you can access and use the tool via Google Colabs (requires Google Account):
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/laprade117/VIDAL/blob/main/NERD.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/laprade117/VIDAL/blob/main/VIDAL.ipynb)
 
 We have also included an example image for you to try the tool with [here](https://raw.githubusercontent.com/laprade117/VIDAL/main/example_image.png).
 
