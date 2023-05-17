@@ -23,7 +23,7 @@ def download_models():
         if os.path.exists(filename):
             # print(f'Inference model {i} is already downloaded. Skipping...')
             continue
-        URL = f'https://github.com/laprade117/NERD/releases/download/inference-models/unet_inference_{i}.ckpt'
+        URL = f'https://github.com/laprade117/VIDAL/releases/download/inference-models/unet_inference_{i}.ckpt'
         response = requests.get(URL)
         os.makedirs(os.path.dirname(filename), exist_ok=True)
         open(f'models/unet_inference_{i}.ckpt', 'wb').write(response.content)
