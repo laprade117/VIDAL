@@ -1,4 +1,4 @@
-# NERD - A machine learning tool for snake venom dermonecrosis identification and quantification
+# VIDAL - A machine learning tool for snake venom dermonecrosis identification and quantification
 
 We will hopefully have a more permanent link to the tool in the near future. Currently, you can access and use the tool via Google Colabs (requires Google Account):
 
