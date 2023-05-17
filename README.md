@@ -2,13 +2,13 @@
 
 We will hopefully have a more permanent link to the tool in the near future. Currently, you can access and use the tool via Google Colabs (requires Google Account):
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/laprade117/NERD/blob/main/NERD.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/laprade117/VIDAL/blob/main/NERD.ipynb)
 
-We have also included an example image for you to try the tool with [here](https://raw.githubusercontent.com/laprade117/NERD/main/example_image.png).
+We have also included an example image for you to try the tool with [here](https://raw.githubusercontent.com/laprade117/VIDAL/main/example_image.png).
 
 <br/><br/>
 
-For the experimental code and raw data for this tool see the associated GitHub repository: [NERD-Experiments](https://github.com/laprade117/NERD-Experiments)
+For the experimental code and raw data for this tool see the associated GitHub repository: [VIDAL-Experiments](https://github.com/laprade117/VIDAL-Experiments)
 
 Additional information regarding the performance of the tool can also be found on Weights and Biases: 
 
