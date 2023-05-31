@@ -1,4 +1,4 @@
-# VIDAL - A machine learning tool for snake venom dermonecrosis identification and quantification
+# VIDAL - Machine-learning guided Venom Induced Dermonecrosis Analysis tooL
 
 We will hopefully have a more permanent link to the tool in the near future. Currently, you can access and use the tool via Google Colabs (requires Google Account):
 
